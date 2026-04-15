@@ -4,7 +4,7 @@ function HelloTitle({ name }) {
     return (
         <>
             <Hello name={name} />
-            <hr />
+            <hr style={{ width: "100%" }} />
         </>
     )
 }
