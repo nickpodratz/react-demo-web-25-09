@@ -1,11 +1,11 @@
 import Center from './Center'
-import Hello from './Hello'
+import HelloTitle from './HelloTitle'
 import WelcomeMessage from './WelcomeMessage'
 
 function App() {
   return (
     <Center>
-      <Hello name="Syntax" />
+      <HelloTitle name="Syntax" />
       <WelcomeMessage />
     </Center>
   )
