@@ -1,10 +1,13 @@
 import Hello from './Hello'
+import WelcomeMessage from './WelcomeMessage'
 
 function App() {
-  return <div>
-    <Hello name="Syntax" />
-    <Hello name="Team" />
-  </div>
+  return (
+    <>
+      <Hello name="Syntax" />
+      <WelcomeMessage />
+    </>
+  )
 }
 
 export default App
