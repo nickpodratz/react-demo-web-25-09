@@ -1,6 +1,8 @@
+import styles from './Highlights.module.css'
+
 function WelcomeMessage() {
     return (
-        <p>
+        <p className={styles.important}>
             We are delighted to welcome you on our platform.
         </p>
     )
