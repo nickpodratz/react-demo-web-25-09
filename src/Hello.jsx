@@ -1,5 +1,5 @@
-function Hello(props) {
-    return <h1>Hi, {props.name}!</h1>
+function Hello({ name }) {
+    return <h1>Hi, {name}!</h1>
 }
 
 export default Hello
