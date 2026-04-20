@@ -8,7 +8,6 @@ function Center({ children }) {
     return (
         <div style={centerStyles}>
             {children}
-        </div>
     )
 }
 
