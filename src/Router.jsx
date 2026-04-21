@@ -9,7 +9,7 @@ export default function Router() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:blog-post-slug" element={<BlogPost />} />
+            <Route path="/blog/:blogPostSlug" element={<BlogPost />} />
             <Route path="/*" element={<NotFound />} />
         </Routes>
     )
