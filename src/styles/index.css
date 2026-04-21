@@ -33,7 +33,7 @@
 }
 
 @layer components {
-  .btn-primary {
+  button.btn-primary {
     @apply border-0 text-white bg-blue-500;
   }
 }
