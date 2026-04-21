@@ -18,4 +18,13 @@
   h1 {
     @apply text-3xl md:text-4xl lg:text-5xl;
   }
+  a {
+    @apply text-blue-400;
+  }
+}
+
+@layer components {
+  button {
+    @apply px-4 py-2 border rounded-md cursor-pointer;
+  }
 }
