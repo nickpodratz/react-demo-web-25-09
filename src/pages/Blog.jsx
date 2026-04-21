@@ -6,13 +6,13 @@ export default function Blog() {
             <h1>Blog</h1>
             <ol className="list-decimal pl-6">
                 <li>
-                    <Link to="/blog/first-article">First Article</Link>
+                    <Link to="/blog/first-post">First Post</Link>
                 </li>
                 <li>
-                    <Link to="/blog/second-article">Second Article</Link>
+                    <Link to="/blog/second-post">Second Post</Link>
                 </li>
                 <li>
-                    <Link to="/blog/third-article">Third Article</Link>
+                    <Link to="/blog/third-post">Third Post</Link>
                 </li>
             </ol>
         </>
