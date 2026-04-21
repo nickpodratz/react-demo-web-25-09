@@ -4,7 +4,7 @@ export default function Blog() {
     return (
         <>
             <h1>Blog</h1>
-            <ol className="list-decimal pl-6">
+            <ol>
                 <li>
                     <Link to="/blog/first-post">First Post</Link>
                 </li>

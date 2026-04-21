@@ -21,6 +21,12 @@
   a {
     @apply text-blue-400;
   }
+  ol {
+    @apply list-decimal pl-6;
+  }
+  ul {
+    @apply list-disc pl-6;
+  }
 }
 
 @layer components {
