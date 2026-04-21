@@ -27,10 +27,13 @@
   ul {
     @apply list-disc pl-6;
   }
+  button {
+    @apply px-4 py-2 border rounded-md cursor-pointer;
+  }
 }
 
 @layer components {
-  button {
-    @apply px-4 py-2 border rounded-md cursor-pointer;
+  .btn-primary {
+    @apply border-0 text-white bg-blue-500;
   }
 }
