@@ -1,5 +1,5 @@
-import styles from './Highlights.module.css'
-import heroImage from './assets/hero.png'
+import styles from '../styles/Highlights.module.css'
+import heroImage from '../assets/hero.png'
 
 function WelcomeMessage() {
     return (
