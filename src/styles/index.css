@@ -11,7 +11,10 @@
 
 @layer base {
   h1 {
-    @apply text-3xl md:text-4xl lg:text-5xl;
+    @apply text-3xl md:text-4xl lg:text-5xl font-light pb-2;
+  }
+  h2 {
+    @apply text-xl md:text-2xl lg:text-3xl pb-1.5;
   }
   a {
     @apply text-blue-400;
