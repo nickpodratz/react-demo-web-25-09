@@ -1,0 +1,19 @@
+{
+    "posts": [
+        {
+            "slug": "first-blog-post",
+            "title": "First blog post",
+            "content": "This is our first blog post. Yeyy."
+        },
+        {
+            "slug": "second-blog-post",
+            "title": "Second blog post",
+            "content": "This is our second blog post. Yippie."
+        },
+        {
+            "slug": "third-blog-post",
+            "title": "Third blog post",
+            "content": "This is our third blog post. Getting boring..."
+        }
+    ]
+}
