@@ -10,7 +10,7 @@ export default function BlogPost() {
     return (
         <>
             <h1>{post.title}</h1>
-            <p>This is our blog post.</p>
+            <p>{post.content}</p>
         </>
     )
 }
