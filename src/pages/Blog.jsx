@@ -7,7 +7,7 @@ export default function Blog() {
             <h1>Blog</h1>
             <ol>
                 {blogData.posts.map(post => (
-                    <li>
+                    <li key={post.slug}>
                         <Link to={`/blog/${post.slug}`}>{post.title}</Link>
                     </li>
                 ))}
