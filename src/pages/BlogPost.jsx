@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom"
-import Blog, { posts } from "./Blog"
+import Blog from "./Blog"
+import blogData from "../data/blog.json" with { type: "json" }
 
 export default function BlogPost() {
     const { blogPostSlug } = useParams();
 
-    const post = posts.find(post => post.slug === blogPostSlug)
+    const post = blogData.posts.find(post => post.slug === blogPostSlug)
 
     return (
         <>

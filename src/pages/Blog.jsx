@@ -1,17 +1,12 @@
 import { Link } from "react-router-dom"
-
-export const posts = [
-    {title: "First Post", slug: "first-post"},
-    {title: "Second Post", slug: "second-post"},
-    {title: "Third Post", slug: "third-post"},
-]
+import blogData from "../data/blog.json" with { type: "json" }
 
 export default function Blog() {
     return (
         <>
             <h1>Blog</h1>
             <ol>
-                {posts.map(post => (
+                {blogData.posts.map(post => (
                     <li>
                         <Link to={`/blog/${post.slug}`}>{post.title}</Link>
                     </li>
