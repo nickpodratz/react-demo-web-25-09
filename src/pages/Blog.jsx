@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 
-export default function Blog() {
-    const posts = [
-        {title: "First Post", slug: "first-post"},
-        {title: "Second Post", slug: "second-post"},
-        {title: "Third Post", slug: "third-post"},
-    ]
+export const posts = [
+    {title: "First Post", slug: "first-post"},
+    {title: "Second Post", slug: "second-post"},
+    {title: "Third Post", slug: "third-post"},
+]
 
+export default function Blog() {
     return (
         <>
             <h1>Blog</h1>
