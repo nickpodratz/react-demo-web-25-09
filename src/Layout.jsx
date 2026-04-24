@@ -3,9 +3,9 @@ import Header from "./components/Header";
 
 export default function Layout({ children }) {
     return (
-        <div>
+        <div className="flex flex-col">
             <Header />
-            <main>
+            <main className="min-h-screen m-4">
                 {children}
             </main>
             <Footer />
