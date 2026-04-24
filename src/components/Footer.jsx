@@ -1,5 +1,5 @@
 export default function Footer() {
     return (
-        <footer>Copyright by Syntax</footer>
+        <footer className="p-4">Copyright by Syntax</footer>
     )
 }
