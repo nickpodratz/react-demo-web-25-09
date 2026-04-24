@@ -9,19 +9,20 @@ export default function Header() {
     
     return (
         <header>
-            <nav>
-                <ul>
-                    {links.map(link => (
-                        <li>
-                            <NavLink 
-                                to={link.target}
-                                className={({ isActive }) => isActive ? "text-black cursor-default font-semibold" : "text-blue-500"}
-                            >
-                                {link.displayName}
-                            </NavLink>
-                        </li>
-                    ))}
-                </ul>
+            <nav className="flex gap-4 p-4">
+                {links.map((link, index) => (
+                    <NavLink
+                        to={link.target}
+                        className={({ isActive }) => `
+                            ${isActive ? 
+                                "text-black cursor-default font-semibold" : 
+                                "text-blue-500"} 
+                            ${index === 0 && "mr-auto"}
+                        `}
+                    >
+                        {link.displayName}
+                    </NavLink>
+                ))}
             </nav>
         </header>
     )
