@@ -17,7 +17,8 @@ export default function Header() {
                             ${isActive ? 
                                 "text-black cursor-default font-semibold" : 
                                 "text-blue-500"} 
-                            ${index === 0 && "mr-auto"}
+                            ${index === 0 && 
+                                "mr-auto"}
                         `}
                     >
                         {link.displayName}
